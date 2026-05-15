@@ -1,6 +1,5 @@
 import streamlit as st
 from groq import Groq
-client = groq(api_key=st.secrets["GROQ_API_KEY"])
 client = Groq(api_key="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")
 
 st.set_page_config(
